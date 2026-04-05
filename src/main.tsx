@@ -1,10 +1,19 @@
-import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
+import { BrowserRouter, Route } from 'react-router';
+import { Routes } from 'react-router';
+import PrivacyPolicy from './components/PrivacyPollicy.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<App />} />
+        <Route path='/privacy' element={<PrivacyPolicy />} />
+      </Routes>
+    </BrowserRouter>
     <App />
   </StrictMode>,
 );
