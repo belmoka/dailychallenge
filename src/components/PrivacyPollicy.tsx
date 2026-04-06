@@ -13,7 +13,7 @@ const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({  accentClass = "text-blue
     {
       title: "Data Collection",
       icon: Database,
-      content: "Satisfy Me is designed to be a private, local-first experience. We do not collect any personally identifiable information (PII). Your progress, points, and unlocked themes are stored locally on your device."
+      content: "Daily Challenge is designed to be a private, local-first experience. We do not collect any personally identifiable information (PII). Your progress, points, and unlocked themes are stored locally on your device."
     },
     {
       title: "How We Use Data",
@@ -81,7 +81,7 @@ const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({  accentClass = "text-blue
             className="text-center p-6"
           >
             <p className="text-slate-500 text-xs leading-loose">
-              By using Anti Stress - Relax And Satisfy, you agree to the terms outlined in this policy. 
+              By using Daily Challenge - Build Habit and Fitness, you agree to the terms outlined in this policy. 
               If you have any questions, please contact us through the official support channels.
             </p>
           </motion.div>

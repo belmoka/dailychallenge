@@ -14,6 +14,5 @@ createRoot(document.getElementById('root')!).render(
         <Route path='/privacy' element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
-    <App />
   </StrictMode>,
 );
